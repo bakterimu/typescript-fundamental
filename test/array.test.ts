@@ -30,5 +30,12 @@ describe('Array', () => {
         console.info(hobbiesReadonly[0]);
     });
 
-    it('should support tuple', () => {});
+    it('should support tuple', () => {
+        const hobbies: readonly [string, number, string] = ['andi', 2, 'budi'];
+        console.info(hobbies);
+
+        const hobbiesNoRead: [string, boolean] = ['andi', true];
+        hobbiesNoRead.push('asd');
+        console.info(hobbiesNoRead);
+    });
 });
