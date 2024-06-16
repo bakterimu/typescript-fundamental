@@ -1,14 +1,14 @@
 describe("Test type data", () => {
-    it("should success", () => {
-        let name = "budi";
-        let nomor = 10000;
-        let isVip = true;
+  it("should success", () => {
+    const name = "budi";
+    const nomor = 10000;
+    const isVip = true;
 
-        console.log(name);
-        console.log(nomor);
-        console.log(isVip);
+    console.log(name);
+    console.log(nomor);
+    console.log(isVip);
 
-        // name = 100;
-        // nomor = "sera";
-    });
+    // name = 100;
+    // nomor = "sera";
+  });
 });
