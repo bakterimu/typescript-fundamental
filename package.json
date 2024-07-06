@@ -1,32 +1,32 @@
 {
-  "name": "typescript-fundamental",
-  "version": "1.0.0",
-  "description": "belajar typescript",
-  "main": "index.js",
-  "scripts": {
-    "test": "jest",
-    "lint": "eslint ./"
-  },
-  "jest": {
-    "transform": {
-      "^.+\\.[t|j]sx?$": "babel-jest"
+    "name": "typescript-fundamental",
+    "version": "1.0.0",
+    "description": "belajar typescript",
+    "main": "index.js",
+    "scripts": {
+        "test": "jest",
+        "lint": "eslint ./"
+    },
+    "jest": {
+        "transform": {
+            "^.+\\.[t|j]sx?$": "babel-jest"
+        }
+    },
+    "author": "izhar mayranda",
+    "license": "ISC",
+    "type": "module",
+    "devDependencies": {
+        "@babel/preset-env": "^7.24.7",
+        "@babel/preset-typescript": "^7.24.7",
+        "@jest/globals": "^29.7.0",
+        "@types/jest": "^29.5.12",
+        "@typescript-eslint/eslint-plugin": "^7.13.1",
+        "@typescript-eslint/parser": "^7.13.1",
+        "babel-jest": "^29.7.0",
+        "eslint": "^8.57.0",
+        "eslint-config-prettier": "^9.1.0",
+        "jest": "^29.7.0",
+        "prettier": "^3.3.2",
+        "ts-jest": "^29.1.4"
     }
-  },
-  "author": "izhar mayranda",
-  "license": "ISC",
-  "type": "module",
-  "devDependencies": {
-    "@babel/preset-env": "^7.24.7",
-    "@babel/preset-typescript": "^7.24.7",
-    "@jest/globals": "^29.7.0",
-    "@types/jest": "^29.5.12",
-    "@typescript-eslint/eslint-plugin": "^7.13.0",
-    "@typescript-eslint/parser": "^7.13.0",
-    "babel-jest": "^29.7.0",
-    "eslint": "^8.57.0",
-    "eslint-config-prettier": "^9.1.0",
-    "jest": "^29.7.0",
-    "prettier": "^3.3.2",
-    "ts-jest": "^29.1.4"
-  }
 }
